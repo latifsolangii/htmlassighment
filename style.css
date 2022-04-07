@@ -1,0 +1,15 @@
+.main{
+    color: blue;text-align: center;
+}
+.mid{
+    color:aqua;text-align: ;
+}
+.para{
+    color: blueviolet;text-align: ;
+}
+div{
+    background-image:url("latif.jpg");
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+}
