@@ -1,17 +1,54 @@
-h1{
-    background-color: aqua;
-    padding-top: 25px;
-    border: 15px solid rgb(0, 9, 128);
-    padding-bottom: 25px;
-    padding-left: 100px;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
 }
-h2{
-    background-color: black;
-    color: white;
-    border: solid rgb(47, 213, 255);
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-left: 100px;
+.item {
+    width: 100px;
+    height: 200px; 
+    border-radius: 20px;
+    border: 2px solid grey;
 
+}
+.over0,.over1,.over2,.over3,.over4{
 
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);                         
+    -webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+     background-size: cover;
+}
+
+.over0 {
+    position: relative;
+    right: 10px;
+    background-image: url("7.jpg");
+
+}
+.over1{
+    position: relative;
+    right: 10px;
+    background-image: url("5.jpg");
+
+}
+.over2{
+    position: relative;
+    right: 10px;
+    background-image: url("1.jpg");
+
+}
+.over3{
+    position: relative;
+    right: 10px;
+    background-image: url("6.jpg");
+}
+.over4{
+    position: relative;
+    right: 10px;
+    background-image: url("images.jpg");
+}
+.item:hover{
+    z-index: 99;
+    transform: scale(1.2);
+    transition: o.5s;
 }
